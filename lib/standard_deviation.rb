@@ -15,7 +15,7 @@ def standard_deviation
   end
   p new_ages_sum = ages_squared.sum # 6) 343.2
   p sum_div_count = new_ages_sum / ages_count # 7) 68.64
-  p Math.sqrt(sum_div_count) # 8) 8.28
+  p Math.sqrt(sum_div_count).round(2) # 8) 8.28
 end
 
 # When you find the standard deviation, print it out
